@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Project Snapshot </name>
-	      <url>http://65.2.142.88:8081/repository/maven-war-snapshots/</url>
+	      <url>http://65.2.142.88:8081/repository/maven-war-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
