@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Project Release</name>
-	      <url>http://35.154.28.63:8081/repository/maven-war-release/</url>
+	      <url>http://43.204.232.160:8081/repository/maven-war-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Project Snapshot </name>
-	      <url>http://35.154.28.63:8081/repository/maven-war-snapshot/</url>
+	      <url>http://43.204.232.160:8081/repository/maven-war-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
