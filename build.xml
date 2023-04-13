@@ -23,7 +23,7 @@ post {
                 color: '#36a64f',
                 message: "Build ${currentBuild.result}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
                 tokenCredentialId: 'UasmqOrfgdaqyFh5qrorMMBL',
-                channel: '#mychannel'
+                channel: '#devops'
             )
         }
     }
