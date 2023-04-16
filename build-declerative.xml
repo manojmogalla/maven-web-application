@@ -15,10 +15,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 notifyBuild('STARTED')
+                notifyBuild('STARTED')
                 git branch: 'development',
-                credentialsId: 'github',
-                url: 'https://github.com/manojmogalla/maven-web-application.git'
+               credentialsId: '5099c826-89d9-4092-b84a-223dcbc00fe8',
+               url: 'https://github.com/manojmogalla/maven-web-application.git'
             }
         }
         stage('Build') {
