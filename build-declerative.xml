@@ -70,13 +70,3 @@ def notifyBuild(String buildStatus = 'STARTED') {
     slackSend (color: colorCode, message: summary)
 }
 
-<!--         stage('SonarReport') {
-            steps {
-                sh "mvn clean sonar:sonar"
-            }
-        }
-        stage('Nexus') {
-            steps {
-                sh "mvn clean deploy"
-            }
-        } -->
