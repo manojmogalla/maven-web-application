@@ -26,16 +26,7 @@ pipeline {
                 sh "mvn clean package"
             }
         }
-<!--         stage('SonarReport') {
-            steps {
-                sh "mvn clean sonar:sonar"
-            }
-        }
-        stage('Nexus') {
-            steps {
-                sh "mvn clean deploy"
-            }
-        } -->
+
     }
     post {
         unstable {
@@ -77,4 +68,15 @@ def notifyBuild(String buildStatus = 'STARTED') {
     }
     // Send notifications
     slackSend (color: colorCode, message: summary)
-}ˇ
+}
+
+<!--         stage('SonarReport') {
+            steps {
+                sh "mvn clean sonar:sonar"
+            }
+        }
+        stage('Nexus') {
+            steps {
+                sh "mvn clean deploy"
+            }
+        } -->
