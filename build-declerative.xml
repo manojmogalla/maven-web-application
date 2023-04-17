@@ -26,16 +26,7 @@ pipeline {
                 sh "mvn clean package"
             }
         }
-        stage('SonarReport') {
-            steps {
-                sh "mvn clean sonar:sonar"
-            }
-        }
-        stage('Nexus') {
-            steps {
-                sh "mvn clean deploy"
-            }
-        }
+     
     }
     post {
         unstable {
